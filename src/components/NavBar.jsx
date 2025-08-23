@@ -3,7 +3,7 @@ import Links from './Links'
 
 export default function NavBar() {
     return(
-        <header className='fixed top-0 left-0 w-screen h-[80px] flex justify-around items-center'>
+        <header className='fixed top-0 left-0 w-screen h-[80px] flex justify-around items-center bg-[#f0f0f0]'>
             <a href='/'><img width={140} src={SinuaSVG} /></a>
             <nav className='flex flex-row gap-8'>
                 <ul className='flex flex-row items-center gap-3'>
